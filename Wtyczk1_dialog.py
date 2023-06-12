@@ -63,11 +63,11 @@ class Wtyczk1Dialog(QtWidgets.QDialog, FORM_CLASS):
             return
 
         # Calculate the height difference between the points
-        height_difference = selected_features[1]['h_plevrf2007nh'] - selected_features[0]['h_plevrf2007nh']
+        height_difference = float(selected_features[1]['h_plevrf2007nh']) - float(selected_features[0]['h_plevrf2007nh'])
 
 
         # Show the result
-        self.show_message(f"Różnica wysokości między punktami {selected_features[0]['id']}, {selected_features[1]['id']} wynosi: {round(height_difference, 3)} [m]")
+        self.show_message(f"Różnica wysokości między punktami {selected_features[0]['nr_punktu']}, {selected_features[1]['nr_punktu']} wynosi: {round(height_difference, 3)} [m]")
 
     def calculate_area(self):
 
