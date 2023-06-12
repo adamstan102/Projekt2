@@ -51,4 +51,4 @@ Program wyświetli nr punktu w Qgis'ie oraz obliczy pole w metrach kwadratowych.
 
 # Znane błędy
 
-Na ten moment możemy obliczać różnice wysokości jedynie w układzie 
+Na ten moment możemy obliczać różnice wysokości jedynie w układzie plevrf2007nh.
