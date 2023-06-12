@@ -33,7 +33,7 @@ Przykład wykonałem na podstwie osnowy wysokościowej Białegostoku.
 
 Po wybraniu więcej niż dwóch punktów wyskoczy komunikat, że musiamy wybrać dokładnie dwa punkty. 
 
-Gdy wybierzemy dwa punkty, program obliczy różnice wysokości .
+Gdy wybierzemy dwa punkty, program wyświetli id punktu i obliczy różnice wysokości w metrach.
 
 
 ![image](https://github.com/adamstan102/Projekt2/assets/129062363/90abf502-0b49-4835-802e-60e036265a20)
@@ -45,9 +45,10 @@ Podobnie korzysta się z wtyczki w celu obliczenia pola. W tym przypadku musimy 
 ![image](https://github.com/adamstan102/Projekt2/assets/129062363/5321b2df-08ab-4c6f-b034-9e5041074704)
 
 
-Program 
+Program wyświetli nr punktu w Qgis'ie oraz obliczy pole w metrach kwadratowych.
 
-# Obsługa wtyczki
 
 
 # Znane błędy
+
+Na ten moment możemy obliczać różnice wysokości jedynie w układzie 
