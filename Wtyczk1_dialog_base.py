@@ -9,6 +9,8 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from qgis._gui import QgsMapLayerComboBox
+
 
 
 class Ui_Wtyczk1DialogBase(object):
@@ -51,7 +53,7 @@ class Ui_Wtyczk1DialogBase(object):
         self.pushButton_Pole.setText(_translate("Wtyczk1DialogBase", "PushButton"))
         self.pushButton_Roz_H.setText(_translate("Wtyczk1DialogBase", "PushButton"))
         self.label.setText(_translate("Wtyczk1DialogBase", "Różnica H"))
-from qgsmaplayercombobox import QgsMapLayerComboBox
+
 
 
 if __name__ == "__main__":
