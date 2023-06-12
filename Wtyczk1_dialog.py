@@ -38,6 +38,11 @@ class Wtyczk1Dialog(QtWidgets.QDialog, FORM_CLASS):
     def __init__(self, parent=None):
         """Constructor."""
         super(Wtyczk1Dialog, self).__init__(parent)
+        # Set up the user interface from Designer through FORM_CLASS.
+        # After self.setupUi() you can access any designer object by doing
+        # self.<objectname>, and you can use autoconnect slots - see
+        # http://qt-project.org/doc/qt-4.8/designer-using-a-ui-file.html
+        # #widgets-and-dialogs-with-auto-connect
         self.setupUi(self)
 
         self.textBrowser_notice = self.textBrowser_komunikaty
@@ -46,6 +51,7 @@ class Wtyczk1Dialog(QtWidgets.QDialog, FORM_CLASS):
         self.pushButton_Pole.clicked.connect(self.calculate_area)
 
     def calculate_height_difference(self):
+        # Get the active layer
         active_layer = iface.activeLayer()
 
         self.is_valid_point_count()
@@ -56,26 +62,30 @@ class Wtyczk1Dialog(QtWidgets.QDialog, FORM_CLASS):
             self.show_message("Musisz zaznaczyć dokładnie 2 punkty.")
             return
 
-
+        # Calculate the height difference between the points
         height_difference = selected_features[1]['h_plevrf2007nh'] - selected_features[0]['h_plevrf2007nh']
 
 
-
+        # Show the result
         self.show_message(f"Różnica wysokości między punktami {selected_features[0]['id']}, {selected_features[1]['id']} wynosi: {round(height_difference, 3)} [m]")
 
     def calculate_area(self):
 
         self.is_valid_point_count()
 
+        # Get the selected layer
         selected_layer = self.mMapLayerComboBox_warstwy.currentLayer()
 
+        # Check if at least 3 points are selected
         selected_features = selected_layer.selectedFeatures()
         if len(selected_features) < 3:
             self.show_message("Musisz zaznaczyć co najmniej 3 punkty.")
             return
 
+        # Calculate the area using Gauss's method
         area, txt = self.calculate_area_using_gauss(selected_features)
 
+        # Show the result
         self.show_message(f"Pole powierzchni figury o wierzchołkach w punktach o numerach {', '.join(txt)} wynosi: {area} [m2]")
 
     def calculate_area_using_gauss(self, selected_features):
