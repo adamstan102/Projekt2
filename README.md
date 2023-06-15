@@ -32,7 +32,8 @@ Głównym zadaniem było stworzenie wtyczki w programie QT Designer do programu 
 Przykład wykonałem na podstwie osnowy wysokościowej Białegostoku.
 
 
-![image](https://github.com/adamstan102/Projekt2/assets/129062363/4ee291d4-3280-47dd-b2e1-4badaac3059b)
+![image](https://github.com/adamstan102/Projekt2/assets/129062363/f24cc53d-2a86-40b1-849b-d192850a10f5)
+
 
 Po wybraniu więcej niż dwóch punktów wyskoczy komunikat, że musiamy wybrać dokładnie dwa punkty. 
 
