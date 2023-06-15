@@ -50,8 +50,8 @@ class Ui_Wtyczk1DialogBase(object):
         _translate = QtCore.QCoreApplication.translate
         Wtyczk1DialogBase.setWindowTitle(_translate("Wtyczk1DialogBase", "Wtyczk1"))
         self.Pole.setText(_translate("Wtyczk1DialogBase", "Pole"))
-        self.pushButton_Pole.setText(_translate("Wtyczk1DialogBase", "PushButton"))
-        self.pushButton_Roz_H.setText(_translate("Wtyczk1DialogBase", "PushButton"))
+        self.pushButton_Pole.setText(_translate("Wtyczk1DialogBase", "Oblicz Pole"))
+        self.pushButton_Roz_H.setText(_translate("Wtyczk1DialogBase", "Oblicz dH"))
         self.label.setText(_translate("Wtyczk1DialogBase", "Różnica H"))
 
 
