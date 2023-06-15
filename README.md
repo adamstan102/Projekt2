@@ -26,7 +26,7 @@ Głównym zadaniem było stworzenie wtyczki w programie QT Designer do programu 
 
 # Interfejs wtyczki
 
-Żeby uruchomić wtyczkę otworzyć program QGIS, wyszukać ją i zainstalować w górnej zakładce 'wtyczki'.
+Żeby uruchomić wtyczkę otworzyć program QGIS, wyszukać ją i zainstalować w górnej zakładce 'Wtyczki'.
 
 
 Przykład wykonałem na podstwie osnowy wysokościowej Białegostoku.
