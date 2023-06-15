@@ -47,7 +47,7 @@ Gdy wybierzemy dwa punkty, program wyświetli id punktu i obliczy różnice wyso
 Podobnie korzysta się z wtyczki w celu obliczenia pola. W tym przypadku musimy wybrać więcej niż trzy punkty w programie qgis.
 
 
-![image](https://github.com/adamstan102/Projekt2/assets/129062363/5321b2df-08ab-4c6f-b034-9e5041074704)
+![image](https://github.com/adamstan102/Projekt2/assets/129062363/8cd4c0d9-af17-4eab-ace1-a7e1aa581431)
 
 
 Program wyświetli nr punktu w Qgis'ie oraz obliczy pole w metrach kwadratowych.
