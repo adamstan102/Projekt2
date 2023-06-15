@@ -40,7 +40,8 @@ Po wybraniu więcej niż dwóch punktów wyskoczy komunikat, że musiamy wybrać
 Gdy wybierzemy dwa punkty, program wyświetli id punktu i obliczy różnice wysokości w metrach.
 
 
-![image](https://github.com/adamstan102/Projekt2/assets/129062363/90abf502-0b49-4835-802e-60e036265a20)
+![image](https://github.com/adamstan102/Projekt2/assets/129062363/efae9891-8a2c-4aeb-8c7d-4f1244275133)
+
 
 
 Podobnie korzysta się z wtyczki w celu obliczenia pola. W tym przypadku musimy wybrać więcej niż trzy punkty w programie qgis.
