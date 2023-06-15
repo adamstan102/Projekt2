@@ -21,6 +21,9 @@ Głównym zadaniem było stworzenie wtyczki w programie QT Designer do programu 
 - biblioteka qgis._core
 - biblioteka qgis._gui
 
+# Informacje
+- Pole przechowujące wysokość to liczba zmienno przecinkowa, inaczej decimal number.
+
 # Interfejs wtyczki
 
 Żeby uruchomić wtyczkę otworzyć program QGIS, wyszukać ją i zainstalować w górnej zakładce 'wtyczki'.
